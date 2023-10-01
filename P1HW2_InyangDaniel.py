@@ -1,46 +1,25 @@
-# This program calculates and displays travel expenses 
+Python 3.11.5 (v3.11.5:cce6ba91b3, Aug 24 2023, 10:50:31) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+=========== RESTART: /Users/danielinyang/Desktop/CTI 110/Practice.py ===========
+This program calculates and displays travel expenses
 
-# 25 Sept 23
+Enter budget: 2000
 
-# CTI-110 P1HW2 - Travel Expense
+Enter your travel destination: Hawaii
 
-# Daniel Inyang
+How much do you think you will spend on your flight? 600
 
-#
+Approximatley, how much will you need for accomodation/hotel? 800
 
-print('This program calculates and displays travel expenses')
-print()
-print('Enter Budget:', int(2000))
-print()
-print('Enter your travel destination:', 'Hawaii')
-print()
-print('How much do you think you will spend on your flight?',int(600))
-print()
-print('Approximatley, how much will you need for accomodation/hotel?', int(800))
-print()
-print('Last, how much do you need for food?', int(400))
-print()
-print('------------Travel Expenses------------')
+Last, how much do you need for food? 400
 
-print('Location: Hawaii')
-print('Initial Budget:', int(2000))
+------------Travel Expenses------------
+Location: Hawaii 
+Initial Budget: 2000
 
-print()
+Flight: 600
+Accomodation: 800
+Food: 400
 
-print('Flight:', int(600))
-print('Accomodation:', int(800))
-print('Food:', int(400))
-print()
-print('Remaining Balance:', int(200))
-
-
-# Set max budget to 2000
-# Determine the desired destination
-# Determine the cost of the flight to destination
-# Determine the amount that will be spent on hotel fees
-# Estimate the amount that would be used for food
-
-      
-      
-      
-
+Remaining Balance: 200
