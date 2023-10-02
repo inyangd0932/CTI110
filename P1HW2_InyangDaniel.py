@@ -1,25 +1,47 @@
-Python 3.11.5 (v3.11.5:cce6ba91b3, Aug 24 2023, 10:50:31) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
-Type "help", "copyright", "credits" or "license()" for more information.
->>> 
-=========== RESTART: /Users/danielinyang/Desktop/CTI 110/Practice.py ===========
-This program calculates and displays travel expenses
+# This program calculates and displays travel expenses 
 
-Enter budget: 2000
+# 2 OCT 23
 
-Enter your travel destination: Hawaii
+# CTI-110 P1HW2 - Travel Expense
 
-How much do you think you will spend on your flight? 600
+# Daniel Inyang
 
-Approximatley, how much will you need for accomodation/hotel? 800
+#
 
-Last, how much do you need for food? 400
+print('This program calculates and displays travel expenses\n')
 
-------------Travel Expenses------------
-Location: Hawaii 
-Initial Budget: 2000
+print('Enter budget: ',end='2000\n')
+budget = 2000
+print()
 
-Flight: 600
-Accomodation: 800
-Food: 400
+print('Enter your travel destination: ',end='Hawaii\n')
 
-Remaining Balance: 200
+print()
+
+print('How much do you think you will spend on your flight? ',end='600\n')
+flight = 600
+print()
+
+print('Approximatley, how much will you need for accomodation/hotel? ',end='800\n')
+hotel = 800
+print()
+
+print('Last, how much do you need for food? ',end='400\n')
+food = 400
+print()
+
+print('------------Travel Expenses------------')
+print('Location:',end='Hawaii\n')
+print('Initial Budget: ',end='2000\n')
+
+print()
+
+print('Flight: ',end='600\n')
+print('Accomodation: ',end='800\n')
+print('Food: ',end='400\n')
+
+print()
+
+print('Remaining Balance: ', budget - flight - hotel - food)
+
+
