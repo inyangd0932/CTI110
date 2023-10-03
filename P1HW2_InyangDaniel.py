@@ -10,38 +10,46 @@
 
 print('This program calculates and displays travel expenses\n')
 
-print('Enter budget: ',end='2000\n')
-budget = 2000
-print()
-
-print('Enter your travel destination: ',end='Hawaii\n')
+print('Enter budget: ', end='')
+budget = int(input())
 
 print()
 
-print('How much do you think you will spend on your flight? ',end='600\n')
-flight = 600
+print('Enter your travel destination: ', end='')
+destination = input()
+
 print()
 
-print('Approximatley, how much will you need for accomodation/hotel? ',end='800\n')
-hotel = 800
+print('How much do you think you will spend on gas? ',end='')
+gas = int(input())
+
 print()
 
-print('Last, how much do you need for food? ',end='400\n')
-food = 400
+print('Approximatley, how much will you need for accomodation/hotel? ', end='')
+hotel = int(input())
+
+print()
+
+print('Last, how much do you need for food? ',end='')
+food = int(input())
+
 print()
 
 print('------------Travel Expenses------------')
-print('Location:',end='Hawaii\n')
-print('Initial Budget: ',end='2000\n')
+
+print('Location: ', destination)
+
+print('Initial Budget:', budget)
 
 print()
 
-print('Flight: ',end='600\n')
-print('Accomodation: ',end='800\n')
-print('Food: ',end='400\n')
+print('Fuel: ', gas)
+
+print('Accomodation: ', hotel)
+
+print('Food: ', food)
 
 print()
 
-print('Remaining Balance: ', budget - flight - hotel - food)
-
+print('Remaining Balance: ', budget - gas - hotel - food)
 
