@@ -33,7 +33,7 @@ high = max(grades)
 
 total = (mod_1 + mod_2 + mod_3 + mod_4 + mod_5 + mod_6)
 
-average = (mod_1 + mod_2 + mod_3 + mod_4 + mod_5 + mod_6) / 6
+average = total / len(grades)
 
 
 print('-----------------Results-----------------')
